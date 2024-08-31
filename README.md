@@ -111,11 +111,11 @@ Files **MUST** end with a newline. ([ref](https://stackoverflow.com/a/729795))
 
 Trailing whitespace **SHOULD** be removed. (exceptions: Markdown, YAML)
 
-Lines more than 80 characters long **SHOULD** be avoided. ([js][crockford80], [php][php80], [python][pep8])
+Lines more than 80 characters long **SHOULD** be avoided. ([js][crockford80], [php][php80])
 
 Modern tooling makes it easy to deliver clean, appropriately formatted code. Please consider using IOP’s [`.editorconfig`][editorconfig] file as a starting point, most of the coding rules in this document are included in that file.
 
-IOP **RECOMMENDS** the use of linting and code-quality tools like [eslint][] and [phpcs][].
+IOP **RECOMMENDS** the use of linting and code-quality tools like [eslint][].
 
 <a name="html"></a>
 
@@ -187,7 +187,7 @@ A theme's `styles.css` file **MUST** be based on [IOP's boilerplate metadata blo
 
 Theme directories **MUST** be prefixed with `iop-`. E.g. `iop-client-theme`.
 
-Namespaced PHP files **SHOULD** use the `ideasonpurpose` namespace.
+Namespaced PHP files **SHOULD** use the `starbase` namespace.
 
 WordPress development servers **SHOULD** enable [`WP_DEBUG`][wp_debug], `WP_DEBUG_LOG` and `WP_DEBUG_DISPLAY`.
 
@@ -202,3 +202,53 @@ Filenames **SHOULD** be cased logically and consistently. (eg. `file1.jpg` & `fi
 Filenames containing multiple words **SHOULD** be joined with [dashes (hyphens), not underscores][-_].
 
 Image files **SHOULD** be descriptively named. (eg. `empire-state-building.jpg` not `bldg-1.jpg`)
+
+
+
+[semver]: https://semver.org
+[0.1.0]: https://semver.org/#faq
+
+[editorconfig]: https://github.com/StarbaseTeam/project-guidelines/.editorconfig
+[2119]: http://www.ietf.org/rfc/rfc2119.txt
+
+[babel]: http://babeljs.io
+[prettier]: https://github.com/prettier/prettier
+[airbnb5]: https://github.com/airbnb/javascript/tree/master/es5
+[airbnb6]: https://github.com/airbnb/javascript
+[strict mode]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode/Transitioning_to_strict_mode
+[jsdoc]: http://usejsdoc.org/about-getting-started.html
+
+[github-css]: http://primercss.io/guidelines/#scss
+[psr-1]: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-1-basic-coding-standard.md
+[psr-2]: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md
+[wpcode]: https://make.wordpress.org/core/handbook/best-practices/coding-standards/php/
+[codeguide-html]: http://codeguide.co/#html
+[codeguide-css]: http://codeguide.co/#css
+[html5]: http://www.w3.org/TR/html5/syntax.html#the-doctype
+[Idiomatic CSS]: https://github.com/necolas/idiomatic-css
+[sass]: http://sass-lang.com/
+[csscomb]: http://csscomb.com/
+
+[ogp]: http://opengraphprotocol.org/
+[twitter cards]: https://dev.twitter.com/cards/overview
+[seo framework]: https://theseoframework.com/
+
+[error_reporting]: http://php.net/manual/en/function.error-reporting.php
+[xdebug]: https://xdebug.org/
+[wp_debug]: https://codex.wordpress.org/WP_DEBUG
+
+[isobar]: http://isobar-idev.github.io/code-standards/#css_css_best_practices
+[tmw]: http://tech.tmw.co.uk/code/TMW-frontend-guidelines
+[Code Guide]: http://codeguide.co/
+
+[crockford80]: http://javascript.crockford.com/code.html#line%20length
+[php80]: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md#user-content-1-overview
+[pep8]: http://legacy.python.org/dev/peps/pep-0008/#maximum-line-length
+
+[eslint]: http://eslint.org
+[phpcs]: http://www.squizlabs.com/php-codesniffer
+
+[-_]: https://www.mattcutts.com/blog/dashes-vs-underscores/
+[x-ua]: http://stackoverflow.com/a/6771584/503463
+
+[google analytics]: https://support.google.com/analytics/answer/1008080?hl=en
