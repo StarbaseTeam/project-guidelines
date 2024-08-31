@@ -1,16 +1,12 @@
 [<img src="./images/company-logo.jpeg" width="180" height="180">](https://www.starbase.agency/)
 # Project Guidelines
 
-<hr>
-
 - [Understanding Requirements and Tech Analysis](#understanding-requirements)
 - [Task Organization in Jira: Creation and Estimation](#task-organization)
 - [Git](#git)
   - [Some Git rules](#some-git-rules)
   - [Git workflow](#git-workflow)
   - [Writing good commit messages](#writing-good-commit-messages)
-
-<hr>
 
 <a name="understanding-requirements"></a>
 
@@ -19,8 +15,6 @@
 ![Understanding Requirements](/images/branching.png)
 
 This phase is the cornerstone of any successful project. Our goal is to deeply understand the client's needs and identify the key tasks that need to be addressed. We actively engage with stakeholders to gather all necessary requirements and clarify expectations. Based on the gathered information, we conduct a detailed analysis of tasks and technologies that we plan to use. This allows us to avoid potential misunderstandings, ensure technical compatibility, and successfully achieve the set goals.
-
-<hr>
 
 <a name="task-organization"></a>
 
@@ -38,8 +32,6 @@ Depending on the specifics of the project, we apply various project management m
 * Scrum: An iterative approach with short development cycles (sprints), providing high flexibility and adaptability.
 
 By choosing the most suitable methodology, we ensure effective project management, process transparency, and timely achievement of our goals.
-
-<hr>
 
 <a name="git"></a>
 
