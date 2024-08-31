@@ -1,5 +1,4 @@
-[<img src="./images/elsewhen-logo.png" width="180" height="180">](https://www.elsewhen.com/)
-
+[<img src="./images/company-logo.jpeg" width="180" height="180">](https://www.starbase.agency/)
 # Project Guidelines
 
 <hr>
