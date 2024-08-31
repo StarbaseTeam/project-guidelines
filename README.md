@@ -7,6 +7,13 @@
   - [Some Git rules](#some-git-rules)
   - [Git workflow](#git-workflow)
   - [Writing good commit messages](#writing-good-commit-messages)
+- [Coding Standards](#coding-standards)
+  - [HTML](#html)
+  - [JavaScript](#javascript)
+  - [CSS & SCSS](#css-scss)
+  - [PHP](#php)
+  - [WordPress](#wordpress)
+  - [File naming](#file-naming)
 
 <a name="understanding-requirements"></a>
 
@@ -86,3 +93,112 @@ A clear commit guideline can significantly improve your Git workflow and collabo
 
 - **Do not end the subject line with a period.**
 - **Use the body to explain _what_ and _why_ as opposed to _how_.**
+
+<a name="coding-standards"></a>
+
+## 4. Coding Standards
+![Understanding Requirements](/images/branching.png)
+
+Files **SHOULD** be indented with spaces, **NOT** tabs.
+
+Files **MUST NOT** mix tabs and spaces.
+
+Files **SHOULD** use UTF-8 encoding.
+
+Files **SHOULD** use Unix (LF) line endings. (Windows developers, set [`git config --global core.autocrlf true`](https://help.github.com/articles/dealing-with-line-endings/#platform-windows))
+
+Files **MUST** end with a newline. ([ref](https://stackoverflow.com/a/729795))
+
+Trailing whitespace **SHOULD** be removed. (exceptions: Markdown, YAML)
+
+Lines more than 80 characters long **SHOULD** be avoided. ([js][crockford80], [php][php80], [python][pep8])
+
+Modern tooling makes it easy to deliver clean, appropriately formatted code. Please consider using IOP’s [`.editorconfig`][editorconfig] file as a starting point, most of the coding rules in this document are included in that file.
+
+IOP **RECOMMENDS** the use of linting and code-quality tools like [eslint][] and [phpcs][].
+
+<a name="html"></a>
+
+## HTML
+
+HTML files **MUST** start with the [HTML 5 doctype][html5]: `<!DOCTYPE html>`
+
+HTML files **MUST** include the [IE Compatibility meta tag][x-ua] as the first meta tag in the `<head>` section, before any conditional comments. References: [1](http://stackoverflow.com/questions/6156639/x-ua-compatible-is-set-to-ie-edge-but-it-still-doesnt-stop-compatibility-mode/9624500#9624500), [2](https://github.com/h5bp/html5-boilerplate/issues/378)
+
+```html
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+```
+
+HTML files **SHOULD** be formatted consistently with two-space (soft) indents.
+
+Deliverable HTML files **MUST** use the full `.html` file extension, not `.htm`.
+
+All asset references **MUST** be case-sensitive.
+
+**OPTIONALLY** adhere to [Code Guide][codeguide-html]'s HTML recommendations.
+
+
+**OPTIONALLY** format HTML files with [Prettier][].
+
+
+Image tags **MUST** include alt-text attributes.
+
+<a name="javascript"></a>
+
+## JavaScript
+
+JavaScript source code **SHOULD** be formatted with [Prettier][].
+
+JavaScript source code using ES2015+ syntax **SHOULD** be transpiled with [Babel][] for distribution.
+
+JavaScript code **SHOULD** run in [strict mode][], production code **SHOULD NOT** display errors, warnings or messages in the console.
+
+**OPTIONALLY** use [JSDoc][] compatible doc blocks.
+
+<a name="css-scss"></a>
+
+## CSS & SCSS
+
+IOP **RECOMMENDS** authoring stylesheets with the [Sass][] CSS preprocessor.
+
+Stylesheet source files **SHOULD** follow the [GitHub CSS coding style guide][github-css].
+
+Stylesheet source files **SHOULD** be indented using two-space indents.
+
+**OPTIONALLY** use our [CSScomb][] dotfile.
+
+**OPTIONALLY** adhere to [Code Guide][codeguide-html]'s CSS recommendations or [Idiomatic CSS][].
+
+<a name="php"></a>
+
+## PHP
+
+PHP code **SHOULD** adhere to [PSR-1][] and [PSR-2][] style guidelines. WordPress projects **MAY** choose to use  [WordPress coding standards][wpcode] instead.
+
+PHP files **SHOULD** be indented using four-space indents. ([PSR-2][])
+
+PHP code **SHOULD** be developed with [`error_reporting`][error_reporting] set to `E_ALL` and **SHOULD NOT** display any errors or warnings. IOP **RECOMMENDS** using [Xdebug][] for additional backtraces.
+
+<a name="wordpress"></a>
+
+## WordPress
+
+A theme's `styles.css` file **MUST** be based on [IOP's boilerplate metadata block][wp-boilerplate].
+
+Theme directories **MUST** be prefixed with `iop-`. E.g. `iop-client-theme`.
+
+Namespaced PHP files **SHOULD** use the `ideasonpurpose` namespace.
+
+WordPress development servers **SHOULD** enable [`WP_DEBUG`][wp_debug], `WP_DEBUG_LOG` and `WP_DEBUG_DISPLAY`.
+
+<a name="file-naming"></a>
+
+## File naming
+
+IOP **RECOMMENDS** descriptive, self-documenting filenames.
+
+Filenames **SHOULD** be cased logically and consistently. (eg. `file1.jpg` & `file2.jpg`; not `File1.JPG` & `FILE2.jpg`)
+
+Filenames containing multiple words **SHOULD** be joined with [dashes (hyphens), not underscores][-_].
+
+Image files **SHOULD** be descriptively named. (eg. `empire-state-building.jpg` not `bldg-1.jpg`)
