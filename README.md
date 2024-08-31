@@ -208,7 +208,7 @@ Image files **SHOULD** be descriptively named. (eg. `empire-state-building.jpg` 
 [semver]: https://semver.org
 [0.1.0]: https://semver.org/#faq
 
-[editorconfig]: https://github.com/StarbaseTeam/project-guidelines/.editorconfig
+[editorconfig]: https://github.com/StarbaseTeam/project-guidelines/blob/main/editorconfig.txt
 [2119]: http://www.ietf.org/rfc/rfc2119.txt
 
 [babel]: http://babeljs.io
