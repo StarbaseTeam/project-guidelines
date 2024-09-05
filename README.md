@@ -332,7 +332,7 @@ cases, including both positive and negative scenarios. This helps ensure maximum
 
 <a name="tools"></a>
 
-## 7. Tools
+## 8. Tools
 
 ![Understanding Requirements](/images/branching.png)
 
