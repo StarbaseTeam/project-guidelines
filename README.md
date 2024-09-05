@@ -20,6 +20,8 @@
 - [Testing](#testing)
 - [Tools](#tools)
 
+#### This document is is currently a work in progress, and presents practical guidelines for developers and others at StarBase who write or contribute to software.
+
 <a name="understanding-requirements"></a>
 
 ## 1. Understanding Requirements and Tech Analysis
