@@ -26,7 +26,7 @@
 
 ## 1. Understanding Requirements and Tech Analysis
 
-![Understanding Requirements](/images/branching.png)
+[//]: # (![Understanding Requirements]&#40;/images/branching.png&#41;)
 
 This phase is the cornerstone of any successful project. Our goal is to deeply understand the client's needs and identify the key tasks that
 need to be addressed. We actively engage with stakeholders to gather all necessary requirements and clarify expectations. Based on the
@@ -37,7 +37,7 @@ misunderstandings, ensure technical compatibility, and successfully achieve the 
 
 ## 2. Task Organization in Jira: Creation and Estimation
 
-![Understanding Requirements](/images/branching.png)
+[//]: # (![Understanding Requirements]&#40;/images/branching.png&#41;)
 
 At this stage, we move on to the detailed organization of the project in Jira. The created task board serves as our primary management tool.
 Each task is clearly defined and assigned a specific goal. By evaluating each task, we develop a detailed work plan, optimize resource
@@ -57,7 +57,7 @@ goals.
 
 ## 3. Git
 
-![Understanding Requirements](/images/branching.png)
+[//]: # (![Understanding Requirements]&#40;/images/branching.png&#41;)
 
 <a name="some-git-rules"></a>
 
@@ -120,7 +120,7 @@ thumb ([source](https://chris.beams.io/posts/git-commit/#seven-rules)):
 
 ## 4. Coding Standards
 
-![Understanding Requirements](/images/branching.png)
+[//]: # (![Understanding Requirements]&#40;/images/branching.png&#41;)
 
 Files **SHOULD** be indented with spaces, **NOT** tabs.
 
@@ -144,7 +144,7 @@ IOP **RECOMMENDS** the use of linting and code-quality tools like [eslint][].
 
 <a name="html"></a>
 
-## HTML
+### HTML
 
 HTML files **MUST** start with the [HTML 5 doctype][html5]: `<!DOCTYPE html>`
 
@@ -173,7 +173,7 @@ Image tags **MUST** include alt-text attributes.
 
 <a name="javascript"></a>
 
-## JavaScript
+### JavaScript
 
 JavaScript source code **SHOULD** be formatted with [Prettier][].
 
@@ -185,7 +185,7 @@ JavaScript code **SHOULD** run in [strict mode][], production code **SHOULD NOT*
 
 <a name="css-scss"></a>
 
-## CSS & SCSS
+### CSS & SCSS
 
 IOP **RECOMMENDS** authoring stylesheets with the [Sass][] CSS preprocessor.
 
@@ -199,7 +199,7 @@ Stylesheet source files **SHOULD** be indented using two-space indents.
 
 <a name="php"></a>
 
-## PHP
+### PHP
 
 PHP code **SHOULD** adhere to [PSR-1][] and [PSR-2][] style guidelines. WordPress projects **MAY** choose to
 use  [WordPress coding standards][wpcode] instead.
@@ -211,7 +211,7 @@ IOP **RECOMMENDS** using [Xdebug][] for additional backtraces.
 
 <a name="wordpress"></a>
 
-## WordPress
+### WordPress
 
 A theme's `styles.css` file **MUST** be based on [IOP's boilerplate metadata block][wp-boilerplate].
 
@@ -223,7 +223,7 @@ WordPress development servers **SHOULD** enable [`WP_DEBUG`][wp_debug], `WP_DEBU
 
 <a name="file-naming"></a>
 
-## File naming
+### File naming
 
 IOP **RECOMMENDS** descriptive, self-documenting filenames.
 
@@ -237,7 +237,7 @@ Image files **SHOULD** be descriptively named. (eg. `empire-state-building.jpg` 
 
 ## 5. Code style
 
-![Understanding Requirements](/images/branching.png)
+[//]: # (![Understanding Requirements]&#40;/images/branching.png&#41;)
 
 In our project, it's essential to adhere to a consistent coding style to ensure high code readability and maintainability. We follow the
 Airbnb coding style as a standard for writing clean and maintainable code. Please adhere to the Airbnb JavaScript Style Guide, which
@@ -256,7 +256,7 @@ guide [here][airbnb-codstyle].
 
 ## 6. Environments
 
-![Understanding Requirements](/images/branching.png)
+[//]: # (![Understanding Requirements]&#40;/images/branching.png&#41;)
 
 In our project, we use three main environments: Development (Dev), User Acceptance Testing (UAT), and Production (Prod). Each of these
 environments has its own role and purpose:
@@ -280,7 +280,7 @@ This clear separation of environments helps minimize risks and ensures stability
 
 ## 7. Testing
 
-![Understanding Requirements](/images/branching.png)
+[//]: # (![Understanding Requirements]&#40;/images/branching.png&#41;)
 
 Testing is an essential part of development aimed at ensuring the quality and stability of the code. In our project, we focus on several key
 types of testing:
@@ -305,7 +305,7 @@ cases, including both positive and negative scenarios. This helps ensure maximum
 
 ## 8. Tools
 
-![Understanding Requirements](/images/branching.png)
+[//]: # (![Understanding Requirements]&#40;/images/branching.png&#41;)
 
 The use of tools plays a crucial role in the efficient development and maintenance of the project. They help automate processes, increase
 productivity, track progress, and resolve issues at every stage of development. It is essential for each team member to use the approved
