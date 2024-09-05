@@ -303,35 +303,6 @@ types of testing:
 An important part of the testing process is creating test cases. Each test case should be described as a scenario that covers various use
 cases, including both positive and negative scenarios. This helps ensure maximum test coverage and increases the likelihood of finding bugs.
 
-<a name="testing"></a>
-
-## 7. Testing
-
-![Understanding Requirements](/images/branching.png)
-
-Testing is an essential part of development aimed at ensuring the quality and stability of the code. In our project, we focus on several key
-types of testing:
-
-* **Smoke Testing**
-
-> Checks the basic functionality of the system to ensure that the application works and is ready for further testing. This type
-> of testing is conducted early to catch any critical issues.
-
-* **Feature Testing**
-
-> Verifies new or modified functionality to ensure that it works as per the requirements. Each new feature undergoes thorough
-> testing at all levels.
-
-* **Regression Testing**
-
-> Ensures that the system functions correctly after changes are made, and that no previously working functionality is
-> broken. Regression helps prevent errors caused by recent updates.
-
-An important part of the testing process is creating test cases. Each test case should be described as a scenario that covers various use
-cases, including both positive and negative scenarios. This helps ensure maximum test coverage and increases the likelihood of finding bugs.
-
-<a name="tools"></a>
-
 ## 8. Tools
 
 ![Understanding Requirements](/images/branching.png)
@@ -361,7 +332,7 @@ tools to ensure consistency and quality of work.
 **Designing/Ideation/Discovery**
 
 - Figma
-- Zeplin
+- plin
 - Photoshop
 
 **Project Management**
