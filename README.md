@@ -19,6 +19,7 @@
 - [Environments](#environments)
 - [Testing](#testing)
 - [Tools](#tools)
+- [Documentation](#documentation)
 
 #### This document is is currently a work in progress, and presents practical guidelines for developers and others at StarBase who write or contribute to software.
 
@@ -303,14 +304,50 @@ types of testing:
 An important part of the testing process is creating test cases. Each test case should be described as a scenario that covers various use
 cases, including both positive and negative scenarios. This helps ensure maximum test coverage and increases the likelihood of finding bugs.
 
-## 8. Tools
+<a name="documentation"></a>
+
+## 8. Documentation
+
+[//]: # (![Understanding Requirements]&#40;/images/branching.png&#41;)
+
+Effective documentation is crucial for ensuring the success of any project. It provides a clear and consistent reference for all team
+members, enabling better collaboration, decision-making, and project continuity. Our team uses the following tools to ensure thorough and
+organized documentation.
+
+**Jira**
+
+> We use Jira to manage tasks, track issues, and monitor progress. Detailed documentation of tasks, including descriptions, comments, and
+> updates, ensures that the development process remains transparent and on schedule.
+
+**GitHub Projects/Issues**
+
+> GitHub is essential for managing our codebase and tracking bugs or feature requests. By documenting every issue, pull request, and change,
+> we maintain a reliable source of truth for the entire project’s lifecycle.
+
+**Trello**
+
+> For simpler project management and task tracking, we use Trello. It helps us visualize workflows, organize tasks, and document key
+> milestones in a straightforward, user-friendly interface.
+
+**Notion**
+> Notion serves as our central hub for project documentation. It allows us to create structured wikis, knowledge bases, and project
+> guidelines, ensuring that all critical information is easy to find and update.
+
+**Miro**
+
+> For brainstorming, ideation, and collaborative planning, we utilize Miro. Visual documentation on Miro boards helps us capture ideas,
+> strategies, and workflows in a format that’s easy to interpret and modify in real time.
+
+By consistently updating and maintaining documentation across these platforms, we ensure clarity, accountability, and smooth transitions
+between phases of the project. This minimizes risks, improves efficiency, and guarantees that all stakeholders are aligned.
+
+## 9. Tools
 
 [//]: # (![Understanding Requirements]&#40;/images/branching.png&#41;)
 
 The use of tools plays a crucial role in the efficient development and maintenance of the project. They help automate processes, increase
 productivity, track progress, and resolve issues at every stage of development. It is essential for each team member to use the approved
 tools to ensure consistency and quality of work.
-
 
 **Decision Making and Project Guidance**
 
